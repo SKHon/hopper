@@ -1,5 +1,5 @@
 {
-  "name": "hobber-core",
+  "name": "hopper-core",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "刘江虹",
@@ -18,5 +18,8 @@
   },
   "scripts": {
     "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "hopper-security": "^0.0.0"
   }
 }
