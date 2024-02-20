@@ -1,11 +1,11 @@
 {
-  "name": "hopper-security",
+  "name": "hopper-quality",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "刘江虹",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/project-security.js",
+  "main": "lib/quality.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,6 +17,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "test": "node ./__tests__/project-security.test.js"
+    "test": "node ./__tests__/hopper-quality.test.js"
   }
 }
