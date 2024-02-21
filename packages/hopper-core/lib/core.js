@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = core;
-const test = require('hopper-security');
+const test = require('hopper-quality');
 function core() {
   return 'Hello from core';
 }
