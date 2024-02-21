@@ -1,14 +1,3 @@
-/**
- * Copyright (c) 2021 ByteDance Inc. All Rights Reserved
- *
- * This source code is licensed under the Apache license.
- * See LICENSE file in the project root for license information.
- *
- * @file: [接口]
- *
- * @date: 2021-03-25 15:20:47
- * @author: 刘江虹(liujianghong@bytedance.com)
- */
 
 interface Context {
   taskId: number,
@@ -39,7 +28,7 @@ interface Context {
     configs: {}
   },
   env: { domain: string, env: string },
-  git:  {
+  git: {
     git: any,
     env: string
   },
@@ -52,5 +41,5 @@ interface Context {
     setWarnCount: Function
   }
 }
-  
+
 export default Context
