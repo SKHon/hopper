@@ -5,7 +5,7 @@
   "author": "刘江虹",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/quality.js",
+  "main": "dist/src/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,6 +17,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "build": "rm -rf ./dist tsconfig.tsbuildinfo && tsc",
     "test": "node ./__tests__/hopper-quality.test.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^7.22.0"
   }
 }
