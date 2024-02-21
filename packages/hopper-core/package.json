@@ -1,17 +1,17 @@
 {
   "name": "hopper-core",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "a quality tool",
   "author": "刘江虹",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "dist/src/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "glob": "^10.3.10",
-    "hopper-quality": "^0.0.0",
+    "hopper-quality": "^0.0.1",
     "meow": "8.1.0",
     "ora": "^5.4.0",
     "yargs": "^16.2.0"
