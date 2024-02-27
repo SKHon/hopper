@@ -1,4 +1,6 @@
-const CLIEngine = require("eslint").CLIEngine;
+import { CLIEngine } from 'eslint';
+import { formatter } from '../utils/formatter';
+
 export default class DebugCheck {
 
   private rules = {
@@ -32,8 +34,8 @@ export default class DebugCheck {
   }
 
   public async run() {
-
-    const res = await this.getCli(this.rules).executeOnFiles(this.files);
-    console.log(res);
+    const cli = this.getCli(this.rules);
+    const res = await cli.executeOnFiles(this.files);
+    return formatter(res?.results);
   }
 }

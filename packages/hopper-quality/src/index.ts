@@ -1,7 +1,8 @@
 import DebugCheck from './libs/debug-check';
-process.on('message', (msg: { files: string[] }) => {
+process.on('message', async (msg: { files: string[] }) => {
   const { files } = msg;
   const debugCheck = new DebugCheck({ files });
-  debugCheck.run();
+  const result = await debugCheck.run();
+  process?.send?.({ result });
 
 })
