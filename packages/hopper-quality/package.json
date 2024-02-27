@@ -22,6 +22,9 @@
   },
   "dependencies": {
     "@typescript-eslint/parser": "^7.0.2",
-    "eslint": "^7.22.0"
+    "eslint": "^7.22.0",
+    "i": "^0.3.7",
+    "npm": "^10.4.0",
+    "skhon-code-snippet": "^0.0.6"
   }
 }

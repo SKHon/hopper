@@ -22,10 +22,13 @@
     "dev": "ts-node ./src/index.ts"
   },
   "dependencies": {
+    "cli-table": "^0.3.11",
     "glob": "^10.3.10",
     "hopper-quality": "^0.0.1",
     "meow": "8.1.0",
     "ora": "^5.4.0",
+    "terminal-kit": "^3.0.2",
+    "terminal-table": "^0.0.12",
     "yargs": "^16.2.0"
   },
   "devDependencies": {
